@@ -1,0 +1,109 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Kingfisher (5.15.0):
+    - Kingfisher/Core (= 5.15.0)
+  - Kingfisher/Core (5.15.0)
+  - MaterialComponents/AnimationTiming (96.0.0)
+  - MaterialComponents/Buttons (96.0.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Elevation (96.0.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Ink (96.0.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/OverlayWindow (96.0.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Application (96.0.0)
+  - MaterialComponents/private/Color (96.0.0)
+  - MaterialComponents/private/KeyboardWatcher (96.0.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Math (96.0.0)
+  - MaterialComponents/private/Overlay (96.0.0)
+  - MaterialComponents/Ripple (96.0.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/schemes/Color (96.0.0):
+    - MaterialComponents/private/Color
+  - MaterialComponents/schemes/Typography (96.0.0):
+    - "MaterialComponents/schemes/Typography+BasicFontScheme"
+    - "MaterialComponents/schemes/Typography+Scheming"
+    - MaterialComponents/Typography
+  - "MaterialComponents/schemes/Typography+BasicFontScheme (96.0.0)"
+  - "MaterialComponents/schemes/Typography+Scheming (96.0.0)"
+  - MaterialComponents/ShadowElevations (96.0.0)
+  - MaterialComponents/ShadowLayer (96.0.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Shapes (96.0.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/Snackbar (96.0.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Buttons
+    - MaterialComponents/Elevation
+    - MaterialComponents/OverlayWindow
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/Overlay
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+  - "MaterialComponents/Snackbar+ColorThemer (96.0.0)":
+    - MaterialComponents/schemes/Color
+    - MaterialComponents/Snackbar
+  - "MaterialComponents/Snackbar+TypographyThemer (96.0.0)":
+    - MaterialComponents/schemes/Typography
+    - MaterialComponents/Snackbar
+  - MaterialComponents/Typography (96.0.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - MDFTextAccessibility (2.0.0)
+  - Realm (5.3.6):
+    - Realm/Headers (= 5.3.6)
+  - Realm/Headers (5.3.6)
+  - RealmSwift (5.3.6):
+    - Realm (= 5.3.6)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.3)
+  - Kingfisher
+  - MaterialComponents/Snackbar
+  - "MaterialComponents/Snackbar+ColorThemer"
+  - "MaterialComponents/Snackbar+TypographyThemer"
+  - RealmSwift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Kingfisher: 1acb67597a520c2d0310677e66d6e0af455ef757
+  MaterialComponents: df9ba0150df145e9e4c0337a8b0b8b61d7093332
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
+  Realm: cd400dd7e5b5bb5c8ae9842eecd73792369e6ec0
+  RealmSwift: 99a16dbdee5d6dfb3d91d56088a9f8c15c0871d1
+
+PODFILE CHECKSUM: e140f9a579d4de041f42af18e6bd05d2860f360a
+
+COCOAPODS: 1.9.3
